@@ -1,4 +1,16 @@
-<div class="container">
+<!-- Passord: julepils -->
+<style>
+	.myContainer {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+		justify-content: center;
+	}
+</style>
+<div class="myContainer">
 	<div id="notifications"></div>
 	Hei prøv å logg inn.
 	<div id="app"></div>
@@ -26,8 +38,6 @@
 		e.preventDefault();
 		if ($('#username').val() !== "julenissen") {
 			$("#notifications").html("Feil brukernavn");
-		} else if ($('#password').val() !== "julepils") {
-			$("#notifications").html("Feil passord");
 		}
 		$.ajax({
 			url: "http://juleverksted.azurewebsites.net/api/json/login",
@@ -37,10 +47,10 @@
 				id: $('#username').val(),
 				password: $('#password').val()
 			},
-			success: function(res) {
-				console.log(res);
-				if (res.status) {
-					var html = "Great success, Gå til neste oppgave <a href='"+res.link+"'>her</a>";
+			status: {
+				200: function (res) {
+					console.log(res);
+					var html = "Great success, Gå til neste oppgave <a href='" + res + "'>her</a>";
 					document.getElementById("app").innerHTML = html;
 				}
 			}
