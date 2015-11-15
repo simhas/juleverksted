@@ -1,34 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Login page</title>
-</head>
-<body>
+<div class="container">
+	<div id="notifications"></div>
 	Hei prøv å logg inn.
 	<div id="app"></div>
-	<script>
-		var html = '<form action="">';
-		html += '<h1>Login</h1>';
-		html += '<label for="username">Brukernavn</label>';
-		html += '<br>';
-		html += '<input id="username" type="text" placeholder="Brukernavn">';
-		html += '<br>';
-		html += '<label for="password">Passord</label>';
-		html += '<br>';
-		html += '<input id="password" type="password" placeholder="Passord">';
-		html += '<br>';
-		html += '<input type="submit" value="Logg inn">';
-		html += '</form>';
-		document.getElementById("app").innerHTML = html;
-	</script>
+</div>
+<script>
+	var html = '<form action="">';
+	html += '<h1>Login</h1>';
+	html += '<label for="username">Brukernavn</label>';
+	html += '<br>';
+	html += '<input id="username" type="text" placeholder="Brukernavn">';
+	html += '<br>';
+	html += '<label for="password">Passord</label>';
+	html += '<br>';
+	html += '<input id="password" type="password" placeholder="Passord">';
+	html += '<br>';
+	html += '<input type="submit" value="Logg inn">';
+	html += '</form>';
+	document.getElementById("app").innerHTML = html;
+</script>
 
-	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
-	<script>
-		$("form").on("submit", function () {
-			
-		});
-	</script>
-</body>
-</html>
+<script>
+	$("form").on("submit", function (e) {
+		e.preventDefault();
+		if ($('#username').val() !== "julenissen") {
+			$("#notifications").html("Feil brukernavn");
+		} else if ($('#password').val() !== "julepils") {
+			$("#notifications").html("Feil passord");
+		}
+		$.ajax({
+			url: "http://juleverksted.azurewebsites.net/api/json/login",
+			method: "GET",
+			dataType: "xml",
+			data: {
+				id: $('#username').val(),
+				password: $('#password').val()
+			},
+			success: function(res) {
+				console.log(res);
+				if (res.status) {
+					var html = "Great success, Gå til neste oppgave <a href='"+res.link+"'>her</a>";
+					document.getElementById("app").innerHTML = html;
+				}
+			}
+		})
+	});
+</script>
