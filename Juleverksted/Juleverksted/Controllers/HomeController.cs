@@ -17,5 +17,10 @@ namespace Juleverksted.Controllers
         {
             return View();
         }
+
+        public ActionResult Reinsdyr()
+        {
+            return View();
+        }
     }
 }
