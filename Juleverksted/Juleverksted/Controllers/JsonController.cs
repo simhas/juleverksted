@@ -7,13 +7,19 @@ namespace Juleverksted.Controllers
     public class JsonController : ApiController
     {
         [HttpGet]
-        public HttpResponseMessage  Login(string id, string password)
+        public HttpResponseMessage Login([FromUri] Credentials credentials)
         {
-            if (id == "julenissen" && password == "julepils")
+            if (credentials.Id == "julenissen" && credentials.Password == "julepils")
             {
                 return Request.CreateResponse(HttpStatusCode.OK, "/Index/Testing");
             }
             return new HttpResponseMessage(HttpStatusCode.NotFound);
+        }
+
+        public class Credentials
+        {
+            public string Id { get; set; }
+            public string Password { get; set; }
         }
     }
 }
