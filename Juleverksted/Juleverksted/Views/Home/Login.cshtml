@@ -42,12 +42,11 @@
 		$.ajax({
 			url: "http://juleverksted.azurewebsites.net/api/json/login",
 			method: "GET",
-			dataType: "xml",
 			data: {
 				id: $('#username').val(),
 				password: $('#password').val()
 			},
-			status: {
+			statusCode: {
 				200: function (res) {
 					console.log(res);
 					var html = "Great success, Gå til neste oppgave <a href='" + res + "'>her</a>";
