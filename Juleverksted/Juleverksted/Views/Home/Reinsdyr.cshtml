@@ -2,6 +2,49 @@
 @{
     ViewBag.Title = "Reinsdyr";
 }
+@model Juleverksted.Controllers.Reinsdyrmodel
 
 <h2>Reinsdyr</h2>
 
+
+@using (Html.BeginForm("MyPost", "Home", Model, FormMethod.Post))
+{
+    <fieldset class="filtering">
+        <legend>SelectExtensions Product</legend>
+        <div>
+            <b>Nisse:</b>
+            @Html.EditorFor(m => m.Something0)
+            @Html.ValidationMessageFor(m => m.Something0)
+            <br />
+
+            <b>Juletre:</b>
+            @Html.EditorFor(m => m.Something1)
+            @Html.ValidationMessageFor(m => m.Something1)
+            <br />
+
+            <b>Julesokk:</b>
+            @Html.EditorFor(m => m.Something2)
+            @Html.ValidationMessageFor(m => m.Something2)
+            <br />
+            
+            <b>Pinnekjøtt er bedre en ribbe:</b>
+            @Html.EditorFor(m => m.Something3)
+            @Html.ValidationMessageFor(m => m.Something3)
+            <br />
+            
+            <b>Julebord:</b>
+            @Html.EditorFor(m => m.Something4)
+            @Html.ValidationMessageFor(m => m.Something4)
+            <br />
+            
+            <b>Juleøl:</b>
+            @Html.EditorFor(m => m.Something5)
+            @Html.ValidationMessageFor(m => m.Something5)
+            <br />
+
+            <div class="filterSubmitBox">
+                <input type="submit" value="Show Messages" />
+            </div>
+        </div>
+    </fieldset>
+}

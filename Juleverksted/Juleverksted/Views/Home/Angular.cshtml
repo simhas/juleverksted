@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "Angular";
+}
+
+@section scripts {
+    @Scripts.Render("~/bundles/angular")
+    <script type="text/javascript">
+        var myApp = angular.module('myApp', ['ui.router']);
+        myApp.config(function ($stateProvider, $urlRouterProvider) {
+            //
+            // For any unmatched url, redirect to /state1
+            $urlRouterProvider.otherwise("/");
+            //
+            // Now set up the states
+            $stateProvider
+                .state('state1', {
+                    url: "/",
+                    template: "<p>Hei</p>"
+                })
+            .state('admin', {
+                url: "/admin",
+                templateUrl: "/content/admin.tpl.html"
+            })
+            ;
+        });
+    </script>
+}
+<div data-ui-view></div>
