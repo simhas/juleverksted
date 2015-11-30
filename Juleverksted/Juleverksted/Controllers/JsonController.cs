@@ -32,15 +32,23 @@ namespace Juleverksted.Controllers
             {
 							return Request.CreateResponse(HttpStatusCode.OK, "<div class='col-md-12' id='task-four-content'><!-- BEGIN task-four --> <div class='portlet'> <div class='portlet-title'> <div class='caption'> <span class='caption-subject text-uppercase'> Trykk 5000 ganger </span> <span class='caption-helper'>...på knappen</span> </div> </div> <div class='portlet-body'> <h4>Hvor mange ganger gidder du å trykke?</h4> <p>For noen Express.js-hjelpere dere er! Nå gjenstår det bare et siste hinder før frontend-nissens skjulested blir avslørt - har dere utholdenheten som trengs?</p> <p class='pushez'><span id='push-times'>0</span> / 5000</p> <br /> <br /> <a id='o-ztuff' href='#'>Trykk</a> </div> <br /> </div> </div>");
             }
-            int result = 0;
-            int.TryParse(password, out result);
-            if (result >= 5000)
-            {
-							return Request.CreateResponse(HttpStatusCode.OK, "59.9114148, 10.7623711");
-            }
 
             return Request.CreateResponse(HttpStatusCode.OK, false);
         }
+
+			[HttpGet]
+				public HttpResponseMessage Check([FromUri] string nisselure)
+				{
+						int result = 0;
+						int.TryParse(nisselure, out result);
+						if (result >= 5000)
+						{
+							return Request.CreateResponse(HttpStatusCode.OK, "59.9114148, 10.7623711");
+						}
+
+						return Request.CreateResponse(HttpStatusCode.OK, false);
+
+				}
 
         public class Credentials
         {
