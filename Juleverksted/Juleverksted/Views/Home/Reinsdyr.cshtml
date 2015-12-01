@@ -4,13 +4,28 @@
 }
 @model Juleverksted.Controllers.Reinsdyrmodel
 
-<h2>Reinsdyr</h2>
+
+<div class="row">
+    <div class="col-md-8">
+        <p>
+            Frontend-nissen liker RegEx. Derfor liker ingen frontend-nissen. Nevertheless, finn ut hvilke kodeord som går gjennom RegEx-ene for å komme deg videre i letingen etter frontend-nissen!
+            
+        </p>
+        <br/>
+        <h4>Her er litt info som kanskje kan hjelpe:</h4>
+        <p>
+            Etter å ha drukket opp den stjålne julepilsen, hadde julenissen bestilt seg en langdistanse-tur til varmere strøk hvor de huser masse frontend- (og RegEx-)eksperter. Brukernavnet for å bestille flyturen lignet ikke nissen. Juletreet befant seg på adressen hvor han skulle. Julesokken var strengt beskyttet (digitalt sett). Pinnekjøtt er bedre enn ribbe, men på tross av dette trenger nissen et nytt personnr hvis han skal bli i varmere strøk. Julebord er bare tull, Juleøl-planene har han lagret et sted på sin maskin, og julesleden har ikke samme flykode som det norske flyselskapet frontend-nissen skal fly med!
+        </p>
+    </div>
+    <div class="col-md-4">
+
+    </div>
+</div>
 
 
 @using (Html.BeginForm("MyPost", "Home", Model, FormMethod.Post))
 {
     <fieldset class="filtering">
-        <legend>SelectExtensions Product</legend>
         <div>
             <b>Nisse:</b>
             @Html.EditorFor(m => m.Something0)
