@@ -1,0 +1,179 @@
+
+.snow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 20;
+}
+
+
+.info-container {
+    position: relative;
+    z-index: 21;
+    padding: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: white;
+    max-width: 70%;
+    clear: both;
+    overflow: auto;
+    -webkit-box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 36px -10px rgba(0,0,0,0.75);
+}
+
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+figure,
+figcaption {
+    display: block;
+}
+
+
+h3 {
+    text-align: center;
+}
+
+h1 {
+    color: #383838;
+    text-align: center;
+}
+
+.banner {
+    height: 300px;
+}
+
+/* Creature container ========================================== */
+
+.creatures {
+    list-style: none;
+    margin: 15px 0;
+    -webkit-transition: opacity .3s;
+    transition: opacity .3s;
+    text-align: center;
+}
+
+    .creatures li {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 160px;
+        list-style: none;
+        margin: 0 auto;
+        padding: 15px 30px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+/* Creature ==================================================== */
+
+figure {
+    width: 150px;
+    height: 150px;
+    padding: 5px;
+    -webkit-animation: bobble 2s ease-in-out infinite;
+    animation: bobble 2s ease-in-out infinite;
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-transition: padding .2s, bottom .2s;
+    transition: padding .2s, bottom .2s;
+    text-align: center;
+    background-image: url("/Content/jorgenNisse.png");
+    background-size: 100%;
+}
+
+@-webkit-keyframes bobble {
+    33% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    66% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+}
+
+@keyframes bobble {
+    33% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg);
+    }
+
+    66% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+    }
+}
+
+#simenNisse {
+    background-image: url("/Content/simenNisse.png");
+    background-repeat:no-repeat;
+}
+
+#jorgenNisse {
+    background-image: url("/Content/jorgenNisse.png");
+}
+
+#mariusNisse {
+    background-image: url("/Content/mariusNisse.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+
+#siljeNisse {
+    background-image: url("/Content/siljeNisse.png");
+}
+
+#janNisse {
+    background-image: url("/Content/jantoreNisse.png");
+    background-size: 85%;
+    background-repeat: no-repeat;
+}
+
+#seanNisse {
+    background-image: url("/Content/seanNisse.png");
+    background-size: 75%;
+    background-repeat: no-repeat;
+}
+
+
+li:hover figure {
+    padding: 30px 40px;
+}
+
+li:hover .click-anim {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+}
+
+
+/* Shadow ======================================================= */
+
+.shadow {
+    height: 20px;
+    background: rgba(0,0,0,.1);
+    width: 60%;
+    border-radius: 100%;
+    margin: -15px 0 0 30%;
+    -webkit-transition: .3s;
+    transition: .3s;
+}

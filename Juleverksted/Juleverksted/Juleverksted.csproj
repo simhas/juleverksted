@@ -200,9 +200,12 @@
     <Content Include="Content\jorgenNisse.png" />
     <Content Include="Content\mariusNisse.png" />
     <Content Include="Content\puzzle.html" />
+    <Content Include="Content\reset.css" />
     <Content Include="Content\seanNisse.png" />
     <Content Include="Content\siljeNisse.png" />
-    <Content Include="Content\velkommen.css" />
+    <Content Include="Content\simenNisse.png" />
+    <Content Include="Content\soprasterialogo.png" />
+    <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -986,6 +989,7 @@
     <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\index.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />

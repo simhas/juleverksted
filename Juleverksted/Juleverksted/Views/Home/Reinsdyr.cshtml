@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Reinsdyr";
 }
 @model Juleverksted.Controllers.Reinsdyrmodel
@@ -9,9 +8,9 @@
     <div class="col-md-8">
         <p>
             Frontend-nissen liker RegEx. Derfor liker ingen frontend-nissen. Nevertheless, finn ut hvilke kodeord som går gjennom RegEx-ene for å komme deg videre i letingen etter frontend-nissen!
-            
+
         </p>
-        <br/>
+        <br />
         <h4>Her er litt info som kanskje kan hjelpe:</h4>
         <p>
             Etter å ha drukket opp den stjålne julepilsen, hadde julenissen bestilt seg en langdistanse-tur til varmere strøk hvor de huser masse frontend- (og RegEx-)eksperter. Brukernavnet for å bestille flyturen lignet ikke nissen. Juletreet befant seg på adressen hvor han skulle. Julesokken var strengt beskyttet (digitalt sett). Pinnekjøtt er bedre enn ribbe, men på tross av dette trenger nissen et nytt personnr hvis han skal bli i varmere strøk. Julebord er bare tull, Juleøl-planene har han lagret et sted på sin maskin, og julesleden har ikke samme flykode som det norske flyselskapet frontend-nissen skal fly med!
@@ -27,41 +26,47 @@
 {
     <fieldset class="filtering">
         <div>
-            <b>Nisse:</b>
-            @Html.EditorFor(m => m.Something0)
-            @Html.ValidationMessageFor(m => m.Something0)
-            <br />
-
-            <b>Juletre:</b>
-            @Html.EditorFor(m => m.Something1)
-            @Html.ValidationMessageFor(m => m.Something1)
-            <br />
-
-            <b>Julesokk:</b>
-            @Html.EditorFor(m => m.Something2)
-            @Html.ValidationMessageFor(m => m.Something2)
-            <br />
-            
-            <b>Pinnekjøtt er bedre en ribbe:</b>
-            @Html.EditorFor(m => m.Something3)
-            @Html.ValidationMessageFor(m => m.Something3)
-            <br />
-            
-            <b>Julebord:</b>
-            @Html.EditorFor(m => m.Something4)
-            @Html.ValidationMessageFor(m => m.Something4)
-            <br />
-            
-            <b>Juleøl:</b>
-            @Html.EditorFor(m => m.Something5)
-            @Html.ValidationMessageFor(m => m.Something5)
-            <br />
-            
-            <b>Juleøl:</b>
-            @Html.EditorFor(m => m.Something6)
-            @Html.ValidationMessageFor(m => m.Something6)
-            <br />
-
+            <div class="form-group">
+                <label>Nisse:</label>
+                @Html.EditorFor(m => m.Something0)
+                @Html.ValidationMessageFor(m => m.Something0)
+            </div>
+            <div class="form-group">
+                <b>Juletre:</b>
+                @Html.EditorFor(m => m.Something1)
+                @Html.ValidationMessageFor(m => m.Something1)
+                <br />
+            </div>
+            <div class="form-group">
+                <b>Julesokk:</b>
+                @Html.EditorFor(m => m.Something2)
+                @Html.ValidationMessageFor(m => m.Something2)
+                <br />
+            </div>
+            <div class="form-group">
+                <b>Pinnekjøtt er bedre en ribbe:</b>
+                @Html.EditorFor(m => m.Something3)
+                @Html.ValidationMessageFor(m => m.Something3)
+                <br />
+            </div>
+            <div class="form-group">
+                <b>Julebord:</b>
+                @Html.EditorFor(m => m.Something4)
+                @Html.ValidationMessageFor(m => m.Something4)
+                <br />
+            </div>
+            <div class="form-group">
+                <b>Juleøl:</b>
+                @Html.EditorFor(m => m.Something5)
+                @Html.ValidationMessageFor(m => m.Something5)
+                <br />
+            </div>
+            <div class="form-group">
+                <b>Juleøl:</b>
+                @Html.EditorFor(m => m.Something6)
+                @Html.ValidationMessageFor(m => m.Something6)
+                <br />
+            </div>
             <div class="filterSubmitBox">
                 <input type="submit" value="Show Messages" />
             </div>
