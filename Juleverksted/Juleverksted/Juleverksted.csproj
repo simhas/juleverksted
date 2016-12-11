@@ -21,6 +21,7 @@
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -194,6 +195,50 @@
     <Content Include="Content\banner.png" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\game\griff.html" />
+    <Content Include="Content\game\images\christmasgame\Gift-faded.png" />
+    <Content Include="Content\game\images\christmasgame\Gift-svak.png" />
+    <Content Include="Content\game\images\christmasgame\Gift.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_0.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_1.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_10.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_11.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_12.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_13.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_14.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_15.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_16.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_17.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_18.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_19.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_2.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_20.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_21.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_22.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_23.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_24.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_25.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_26.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_27.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_28.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_29.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_3.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_4.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_5.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_6.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_7.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_8.png" />
+    <Content Include="Content\game\images\christmasgame\Gift_9.png" />
+    <Content Include="Content\game\images\christmasgame\sleigh.png" />
+    <Content Include="Content\game\scripts\griffgrabber\canvasobject.js" />
+    <Content Include="Content\game\scripts\griffgrabber\car.js" />
+    <Content Include="Content\game\scripts\griffgrabber\cargame.js" />
+    <Content Include="Content\game\scripts\griffgrabber\fastmath.js" />
+    <Content Include="Content\game\scripts\griffgrabber\griffDrawer.js" />
+    <Content Include="Content\game\scripts\griffgrabber\keylistener.js" />
+    <Content Include="Content\game\scripts\griffgrabber\run.js" />
+    <Content Include="Content\game\scripts\griffgrabber\victim.js" />
+    <Content Include="Content\game\scripts\main.js" />
     <Content Include="Content\jantoreNisse.png" />
     <Content Include="Content\jorgenNisse.png" />
     <Content Include="Content\mariusNisse.png" />
@@ -1050,6 +1095,7 @@
     <Content Include="Scripts\angular-animate.min.js.map" />
     <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Home\Hunt.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
