@@ -28,7 +28,7 @@ namespace Juleverksted.Controllers
         {
             return View(new Reinsdyrmodel());
         }
-        
+
         public ActionResult Login() {
             return View();
         }

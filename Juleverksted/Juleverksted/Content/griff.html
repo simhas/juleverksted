@@ -1,0 +1,108 @@
+﻿<html>
+
+<head>
+    <script data-main="scripts/main" src="scripts/require.js"></script>
+    <script data-main="scripts/main" src="scripts/jquery-3.1.1.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <div class="newsThehunt">
+        <h1>Christmas hunter</h1>
+        <div id="gameWrap">
+            <canvas id="thehunt" width="700" height="400"></canvas>
+
+            <table style="margin-left: 20px">
+                <tr>
+                    <td>
+                        <div class="button">
+                            <input type="button" id="thebutton" value="Start" />
+                        </div>
+                    </td>
+                    <td style="padding-left: 30px">
+                        <div class="button">
+                            <input type="button" id="restartButton" value="Restart" />
+                        </div>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+    <style>
+        canvas#thehunt {
+            border: 2px solid #888;
+            margin: auto;
+            width: 700px;
+            height: 400px;
+            background-color: #daedff;
+            border-radius: 2px;
+        }
+
+        .newsThehunt input[type=button] {
+            margin: auto;
+            display: block;
+        }
+
+        #tutorial img {
+            margin: auto;
+            display: block;
+        }
+
+        #thehunt_picture {
+            margin-top: 50px;
+            margin-left: 10px;
+            display: block;
+        }
+
+        .userScore .score, .userScore .position {
+            width: 5em;
+            font-weight: bold;
+        }
+
+        .userScore {
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+	.canvasStyle {
+	    border: 2px solid #888
+	}
+
+
+	input[type=button] {
+		padding:5px 15px; background:#ccc; border:0 none;
+    		cursor:pointer;
+    		-webkit-border-radius: 5px;
+    		border-radius: 5px; 
+	}
+
+	h1 {
+  		font-family: 'Droid Sans', sans-serif;
+  		font-size: 30px;
+	}	
+
+    </style>
+
+    <script>
+        require(['griffgrabber/run'], function (runner) {
+            var data = {
+                canvas: document.getElementById("thehunt"),
+                pictureCanvas: document.getElementById("thehunt_picture"),
+                startButton: document.getElementById("thebutton"),
+                tutorial: document.getElementById("tutorial"),
+                highscorelist: document.getElementById("highscorelist"),
+                gameWrap: document.getElementById("gameWrap"),
+                restartButton: document.getElementById("restartButton")
+            };
+            runner.init(data);
+        });
+    </script>
+
+    <canvas class="canvasStyle" id="thehunt_picture" width="230" height="216"></canvas>
+
+</body>
+</html>

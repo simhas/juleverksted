@@ -30,6 +30,10 @@ namespace Juleverksted
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/hunt")
+                .Include("~/Content/game/scripts/main.js")
+                .IncludeDirectory("~/Content/game/scripts/griffgrabber/", "*.js", true));
         }
     }
 }

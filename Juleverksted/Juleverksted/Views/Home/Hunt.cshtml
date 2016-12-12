@@ -1,0 +1,97 @@
+﻿<div class="newsThehunt">
+    <h1>Christmas hunter</h1>
+    <div id="gameWrap">
+        <canvas id="thehunt" width="700" height="400"></canvas>
+
+        <table style="margin-left: 20px">
+            <tr>
+                <td>
+                    <div class="button">
+                        <input type="button" id="thebutton" value="Start" />
+                    </div>
+                </td>
+                <td style="padding-left: 30px">
+                    <div class="button">
+                        <input type="button" id="restartButton" value="Restart" />
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+<style>
+    canvas#thehunt {
+        border: 2px solid #888;
+        margin: auto;
+        width: 700px;
+        height: 400px;
+        background-color: #eee;
+        border-radius: 2px;
+    }
+
+    .newsThehunt input[type=button] {
+        margin: auto;
+        display: block;
+    }
+
+    #tutorial img {
+        margin: auto;
+        display: block;
+    }
+
+    #thehunt_picture {
+        margin-top: 50px;
+        margin-left: 10px;
+        display: block;
+    }
+
+    .userScore .score, .userScore .position {
+        width: 5em;
+        font-weight: bold;
+    }
+
+    .userScore {
+        white-space: nowrap;
+        overflow: hidden;
+    }
+</style>
+
+@section scripts {
+
+
+    <script>
+
+        require(['griffgrabber/run'], function (runner) {
+            var data = {
+                canvas: document.getElementById("thehunt"),
+                pictureCanvas: document.getElementById("thehunt_picture"),
+                startButton: document.getElementById("thebutton"),
+                tutorial: document.getElementById("tutorial"),
+                highscorelist: document.getElementById("highscorelist"),
+                gameWrap: document.getElementById("gameWrap"),
+                restartButton: document.getElementById("restartButton")
+            };
+            runner.init(data);
+        });
+
+    </script>
+@Scripts.Render("~/bundles/hunt")
+
+
+}
+
+<div class="g-barTitle">Progresjon</div>
+<canvas id="thehunt_picture" width="230" height="216"></canvas>
+
+@*<script src="../../Content/game/scripts/main.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/canvasobject.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/car.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/cargame.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/fastmath.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/griffDrawer.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/keylistener.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/run.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/victim.js"></script>*@
+
