@@ -161,7 +161,7 @@ var levels = [
 var levelWin = {
   name: 'win',
   instructions: {
-    'en': '<p>Yey! Du hjalp nissen, rudolf og snømannen med å finne tilbake til tingene sine. Se hvor glade de ble!</p><p>Men Grinchen er fortsatt ingen steder å se, du må skynde deg videre for å fange ham!</p>'
+    'en': '<p>Yey! Du hjalp nissen, rudolf og snømannen med å finne tilbake til tingene sine. Se hvor glade de ble!</p><p>Men Grinchen er fortsatt ingen steder å se, du må skynde deg videre for å fange ham! /content/griff.html</p>'
   },
   board: 'gyrgyrgyrgyrgyrgyrgyrgyrg',
   classes: {'#pond, #background': 'wrap'},
