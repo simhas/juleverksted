@@ -304,6 +304,10 @@ var game = {
         correct = false;
       }
     });
+	
+	if(game.solved.length < (level.number-1)){
+		correct = false;
+	}	
 
     if (correct) {
       ga('send', {
