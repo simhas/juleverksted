@@ -3,12 +3,19 @@
 <head>
     <script data-main="scripts/main" src="scripts/require.js"></script>
     <script data-main="scripts/main" src="scripts/jquery-3.1.1.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:700' rel='stylesheet'>
+
 </head>
 
 <body>
 
     <div class="newsThehunt">
         <h1>Christmas hunter</h1>
+
+<p>Så bra, dere fant Grinchen! Han er slu og har delt seg opp i mange biter. </br>
+Her, bruk frontendsleden for å greie å samle sammen bitene og fange Grinchen. </br>
+Når dere har greid det, får dere også svaret på hvor vår hemmelige feiring vil foregå ;) </br>
+Skynd dere dit, førstemann vinner! (trykk start og begyn jakten)</p>
         <div id="gameWrap">
             <canvas id="thehunt" width="700" height="400"></canvas>
 
@@ -36,7 +43,7 @@
             margin: auto;
             width: 700px;
             height: 400px;
-            background-color: #eee;
+            background-color: #daedff;
             border-radius: 2px;
         }
 
@@ -66,6 +73,23 @@
             overflow: hidden;
         }
 
+	.canvasStyle {
+	    border: 2px solid #888
+	}
+
+
+	input[type=button] {
+		padding:5px 15px; background:#ccc; border:0 none;
+    		cursor:pointer;
+    		-webkit-border-radius: 5px;
+    		border-radius: 5px; 
+	}
+
+	h1 {
+  		font-family: 'Droid Sans', sans-serif;
+  		font-size: 30px;
+	}	
+
     </style>
 
     <script>
@@ -83,9 +107,7 @@
         });
     </script>
 
-
-    <div class="g-barTitle">Progresjon</div>
-    <canvas id="thehunt_picture" width="230" height="216"></canvas>
+    <canvas class="canvasStyle" id="thehunt_picture" width="230" height="216"></canvas>
 
 </body>
 </html>
