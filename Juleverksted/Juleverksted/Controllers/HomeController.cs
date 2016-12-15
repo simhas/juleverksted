@@ -76,7 +76,7 @@ namespace Juleverksted.Controllers
         public string Something5 { get; set; }
             
         [Required(ErrorMessage = "Field can't be empty")] //Flightnumber path
-        [RegularExpression(@"^D[Y8](99..|7921)$", ErrorMessage = "Please Enter Correct Regex")]
+        [RegularExpression(@"^[0-9A-Z]([-.\w]*[0-9A-Z])*$", ErrorMessage = "Please Enter Correct Regex")]
         public string Something6 { get; set; }
 
 
