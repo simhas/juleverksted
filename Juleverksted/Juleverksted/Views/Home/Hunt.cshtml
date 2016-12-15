@@ -58,7 +58,11 @@
     }
 </style>
 
+@section scripts {
+
+
     <script>
+
         require(['griffgrabber/run'], function (runner) {
             var data = {
                 canvas: document.getElementById("thehunt"),
@@ -71,13 +75,17 @@
             };
             runner.init(data);
         });
-    </script>
 
+    </script>
+@Scripts.Render("~/bundles/hunt")
+
+
+}
 
 <div class="g-barTitle">Progresjon</div>
 <canvas id="thehunt_picture" width="230" height="216"></canvas>
 
-<script src="../../Content/game/scripts/main.js"></script>
+@*<script src="../../Content/game/scripts/main.js"></script>
 <script src="../../Content/game/scripts/griffgrabber/canvasobject.js"></script>
 <script src="../../Content/game/scripts/griffgrabber/car.js"></script>
 <script src="../../Content/game/scripts/griffgrabber/cargame.js"></script>
@@ -85,5 +93,5 @@
 <script src="../../Content/game/scripts/griffgrabber/griffDrawer.js"></script>
 <script src="../../Content/game/scripts/griffgrabber/keylistener.js"></script>
 <script src="../../Content/game/scripts/griffgrabber/run.js"></script>
-<script src="../../Content/game/scripts/griffgrabber/victim.js"></script>
+<script src="../../Content/game/scripts/griffgrabber/victim.js"></script>*@
 

@@ -42,58 +42,58 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Antlr3.Runtime">
-      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework.SqlServer">
-      <HintPath>..\packages\EntityFramework.6.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.1.0\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.1.0\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Owin">
-      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.1.0\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin">
-      <HintPath>..\packages\Microsoft.Owin.3.0.0\lib\net45\Microsoft.Owin.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Host.SystemWeb">
-      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.0\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security">
-      <HintPath>..\packages\Microsoft.Owin.Security.3.0.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Cookies">
-      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Facebook">
-      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.0\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Google">
-      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.0\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
-      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.0\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.OAuth">
-      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Owin.Security.Twitter">
-      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.0\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
@@ -116,7 +116,7 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.Helpers.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -125,32 +125,32 @@
     <Reference Include="System.Web.Http.Cors">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Cors.5.2.3\lib\net45\System.Web.Http.Cors.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Http.WebHost, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.2\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
-    <Reference Include="System.Web.Mvc, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.2\lib\net45\System.Web.Mvc.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.2\lib\net45\System.Web.Razor.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
     </Reference>
     <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.2\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Web" />
@@ -166,7 +166,7 @@
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
     <Reference Include="WebGrease">
-      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +193,8 @@
   <ItemGroup>
     <Content Include="Content\admin.tpl.html" />
     <Content Include="Content\banner.png" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\game\griff.html" />
@@ -239,11 +241,111 @@
     <Content Include="Content\game\scripts\griffgrabber\run.js" />
     <Content Include="Content\game\scripts\griffgrabber\victim.js" />
     <Content Include="Content\game\scripts\main.js" />
+    <Content Include="Content\griff.html" />
+    <Content Include="Content\images\christmasgame\Gift-faded.png" />
+    <Content Include="Content\images\christmasgame\Gift-svak.png" />
+    <Content Include="Content\images\christmasgame\Gift.png" />
+    <Content Include="Content\images\christmasgame\Gift_0.png" />
+    <Content Include="Content\images\christmasgame\Gift_1.png" />
+    <Content Include="Content\images\christmasgame\Gift_10.png" />
+    <Content Include="Content\images\christmasgame\Gift_11.png" />
+    <Content Include="Content\images\christmasgame\Gift_12.png" />
+    <Content Include="Content\images\christmasgame\Gift_13.png" />
+    <Content Include="Content\images\christmasgame\Gift_14.png" />
+    <Content Include="Content\images\christmasgame\Gift_15.png" />
+    <Content Include="Content\images\christmasgame\Gift_16.png" />
+    <Content Include="Content\images\christmasgame\Gift_17.png" />
+    <Content Include="Content\images\christmasgame\Gift_18.png" />
+    <Content Include="Content\images\christmasgame\Gift_19.png" />
+    <Content Include="Content\images\christmasgame\Gift_2.png" />
+    <Content Include="Content\images\christmasgame\Gift_20.png" />
+    <Content Include="Content\images\christmasgame\Gift_21.png" />
+    <Content Include="Content\images\christmasgame\Gift_22.png" />
+    <Content Include="Content\images\christmasgame\Gift_23.png" />
+    <Content Include="Content\images\christmasgame\Gift_24.png" />
+    <Content Include="Content\images\christmasgame\Gift_25.png" />
+    <Content Include="Content\images\christmasgame\Gift_26.png" />
+    <Content Include="Content\images\christmasgame\Gift_27.png" />
+    <Content Include="Content\images\christmasgame\Gift_28.png" />
+    <Content Include="Content\images\christmasgame\Gift_29.png" />
+    <Content Include="Content\images\christmasgame\Gift_3.png" />
+    <Content Include="Content\images\christmasgame\Gift_4.png" />
+    <Content Include="Content\images\christmasgame\Gift_5.png" />
+    <Content Include="Content\images\christmasgame\Gift_6.png" />
+    <Content Include="Content\images\christmasgame\Gift_7.png" />
+    <Content Include="Content\images\christmasgame\Gift_8.png" />
+    <Content Include="Content\images\christmasgame\Gift_9.png" />
+    <Content Include="Content\images\christmasgame\sleigh.png" />
+    <Content Include="Content\images\griffgame\car1.png" />
+    <Content Include="Content\images\griffgame\griff-0.png" />
+    <Content Include="Content\images\griffgame\griff-1.png" />
+    <Content Include="Content\images\griffgame\griff-10.png" />
+    <Content Include="Content\images\griffgame\griff-11.png" />
+    <Content Include="Content\images\griffgame\griff-12.png" />
+    <Content Include="Content\images\griffgame\griff-13.png" />
+    <Content Include="Content\images\griffgame\griff-14.png" />
+    <Content Include="Content\images\griffgame\griff-15.png" />
+    <Content Include="Content\images\griffgame\griff-16.png" />
+    <Content Include="Content\images\griffgame\griff-17.png" />
+    <Content Include="Content\images\griffgame\griff-18.png" />
+    <Content Include="Content\images\griffgame\griff-19.png" />
+    <Content Include="Content\images\griffgame\griff-2.png" />
+    <Content Include="Content\images\griffgame\griff-20.png" />
+    <Content Include="Content\images\griffgame\griff-21.png" />
+    <Content Include="Content\images\griffgame\griff-22.png" />
+    <Content Include="Content\images\griffgame\griff-23.png" />
+    <Content Include="Content\images\griffgame\griff-24.png" />
+    <Content Include="Content\images\griffgame\griff-25.png" />
+    <Content Include="Content\images\griffgame\griff-26.png" />
+    <Content Include="Content\images\griffgame\griff-27.png" />
+    <Content Include="Content\images\griffgame\griff-3.png" />
+    <Content Include="Content\images\griffgame\griff-4.png" />
+    <Content Include="Content\images\griffgame\griff-5.png" />
+    <Content Include="Content\images\griffgame\griff-6.png" />
+    <Content Include="Content\images\griffgame\griff-7.png" />
+    <Content Include="Content\images\griffgame\griff-8.png" />
+    <Content Include="Content\images\griffgame\griff-9.png" />
+    <Content Include="Content\images\griffgame\griff-faded.png" />
+    <Content Include="Content\images\griffgame\griff-svak.png" />
+    <Content Include="Content\images\griffgame\LogoGriff.png" />
+    <Content Include="Content\images\griffgame\start.png" />
     <Content Include="Content\jantoreNisse.png" />
     <Content Include="Content\jorgenNisse.png" />
+    <Content Include="Content\JulenisseFlexbox\css\style.css" />
+    <Content Include="Content\JulenisseFlexbox\favicon.ico" />
+    <Content Include="Content\JulenisseFlexbox\images\frog-green.svg" />
+    <Content Include="Content\JulenisseFlexbox\images\frog-red.svg" />
+    <Content Include="Content\JulenisseFlexbox\images\frog-yellow.svg" />
+    <Content Include="Content\JulenisseFlexbox\images\lilypad-green.svg" />
+    <Content Include="Content\JulenisseFlexbox\images\lilypad-red.svg" />
+    <Content Include="Content\JulenisseFlexbox\images\lilypad-yellow.svg" />
+    <Content Include="Content\JulenisseFlexbox\images\reindeer.png" />
+    <Content Include="Content\JulenisseFlexbox\images\ribbon.png" />
+    <Content Include="Content\JulenisseFlexbox\images\santa.png" />
+    <Content Include="Content\JulenisseFlexbox\images\santabag.png" />
+    <Content Include="Content\JulenisseFlexbox\images\screenshot.png" />
+    <Content Include="Content\JulenisseFlexbox\images\sleigh.png" />
+    <Content Include="Content\JulenisseFlexbox\images\snowglobe.png" />
+    <Content Include="Content\JulenisseFlexbox\images\snowman.png" />
+    <Content Include="Content\JulenisseFlexbox\index.html" />
+    <Content Include="Content\JulenisseFlexbox\js\docs.js" />
+    <Content Include="Content\JulenisseFlexbox\js\game.js" />
+    <Content Include="Content\JulenisseFlexbox\js\levels.js" />
+    <Content Include="Content\JulenisseFlexbox\js\messages.js" />
     <Content Include="Content\mariusNisse.png" />
     <Content Include="Content\puzzle.html" />
     <Content Include="Content\reset.css" />
+    <Content Include="Content\scripts\griffgrabber\canvasobject.js" />
+    <Content Include="Content\scripts\griffgrabber\car.js" />
+    <Content Include="Content\scripts\griffgrabber\cargame.js" />
+    <Content Include="Content\scripts\griffgrabber\fastmath.js" />
+    <Content Include="Content\scripts\griffgrabber\griffDrawer.js" />
+    <Content Include="Content\scripts\griffgrabber\keylistener.js" />
+    <Content Include="Content\scripts\griffgrabber\run.js" />
+    <Content Include="Content\scripts\griffgrabber\victim.js" />
+    <Content Include="Content\scripts\jquery-3.1.1.min.js" />
+    <Content Include="Content\scripts\main.js" />
+    <Content Include="Content\scripts\require.js" />
     <Content Include="Content\seanNisse.png" />
     <Content Include="Content\siljeNisse.png" />
     <Content Include="Content\simenNisse.png" />
@@ -254,9 +356,20 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\JulenisseFlexbox\CNAME" />
+    <Content Include="Content\JulenisseFlexbox\LICENSE" />
+    <Content Include="Content\JulenisseFlexbox\package.json" />
+    <Content Include="Content\JulenisseFlexbox\README.md" />
+    <Content Include="Content\JulenisseFlexbox\_config.yml" />
+    <Content Include="Content\JulenisseFlexbox\_nojekyll" />
     <None Include="Properties\PublishProfiles\juleverksted.pubxml" />
     <Content Include="Scripts\angular-animate.js" />
     <Content Include="Scripts\angular-animate.min.js" />
@@ -272,6 +385,8 @@
     <Content Include="Scripts\angular-messages.js" />
     <Content Include="Scripts\angular-messages.min.js" />
     <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-parse-ext.js" />
+    <Content Include="Scripts\angular-parse-ext.min.js" />
     <Content Include="Scripts\angular-resource.js" />
     <Content Include="Scripts\angular-resource.min.js" />
     <Content Include="Scripts\angular-route.js" />
@@ -287,6 +402,19 @@
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\errors.json" />
+    <Content Include="Scripts\angular-touch.min.js.map" />
+    <Content Include="Scripts\angular-sanitize.min.js.map" />
+    <Content Include="Scripts\angular-route.min.js.map" />
+    <Content Include="Scripts\angular-resource.min.js.map" />
+    <Content Include="Scripts\angular-parse-ext.min.js.map" />
+    <Content Include="Scripts\angular-messages.min.js.map" />
+    <Content Include="Scripts\angular-message-format.min.js.map" />
+    <Content Include="Scripts\angular-loader.min.js.map" />
+    <Content Include="Scripts\angular-cookies.min.js.map" />
+    <Content Include="Scripts\angular-aria.min.js.map" />
+    <Content Include="Scripts\angular-animate.min.js.map" />
+    <Content Include="Scripts\angular.min.js.map" />
     <Content Include="Scripts\i18n\angular-locale_aa-dj.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-er.js" />
     <Content Include="Scripts\i18n\angular-locale_aa-et.js" />
@@ -1031,17 +1159,23 @@
     <Content Include="Scripts\i18n\angular-locale_zh.js" />
     <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\index.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Web.config" />
